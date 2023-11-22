@@ -1,30 +1,27 @@
 from fractions import Fraction
 
-a = int(input("Enter a= "))
-b = int(input("Enter b= "))
+#str_1 = "10/11"
+#str_2 = "20/22"
+#num_1 = str_1.split("/")
+#num_2 = str_2.split("/")
+#a = num_1[0]
+#b = num_1[1]
+#c = num_2[0]
+#d = num_2[1]
+#result = a + b
+#print(f'{result}')
 
-print(Fraction(a, b))
+first_fract = input('Введите первую дробь формата "a/b": ').split('/')
+second_fract = input('Введите вторую дробь формата "a/b": ').split('/')
 
-# ввод числителей и знаменателей двух дробей
-a = int(input("Введите числитель первой дроби: "))
-b = int(input("Введите знаменатель первой дроби: "))
-c = int(input("Введите числитель второй дроби: "))
-d = int(input("Введите знаменатель второй дроби: "))
+fract_1 = int(first_fract[0]) / int(first_fract[1])
+fract_2 = int(second_fract[0]) / int(second_fract[1])
+pro_fract_1 = Fraction(int(first_fract[0]), int(first_fract[1]))
+pro_fract_2 = Fraction(int(second_fract[0]), int(second_fract[1]))
 
-# нахождение произведения дробей
-numerator = a * c
-denominator = b * d
+print(f'Сумма дробей: {fract_1 + fract_2}')
+print(f'Проверка: {pro_fract_1 + pro_fract_2}')
 
-# сокращение дроби
-def gcd(a, b):
-if b == 0:
-return a
-else:
-return gcd(b, a % b)
+print(f'Произведение дробей: {fract_1 * fract_2}')
+print(f'Проверка: {pro_fract_1 * pro_fract_2}')
 
-divisor = gcd(numerator, denominator)
-numerator //= divisor
-denominator //= divisor
-
-# вывод результата
-print("Произведение дробей равно:", numerator, "/", denominator)
