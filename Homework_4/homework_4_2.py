@@ -1,14 +1,12 @@
-def string_to_dict(nums: str) -> dict[str, int]:
+def string_to_dict(text: str) -> dict[str, int]:
+    num1, num2 = map(int, text.split())
+    if num1 > num2:
+        num1, num2 = num2, num1
+    result = {}
+    for i in range(num1, num2 + 1):
+        result[chr(i)] = i
+    return result
 
-    start, stop = map(int, nums.split())
-    if start > stop:
-        start, stop = stop, start
-    res = {}
 
-    for i in range(start, stop+1):
-        res[chr(i)] = i
-
-    return res
-
-print(string_to_dict("65 97"))
-print(string_to_dict("97 65"))
+print(string_to_dict("90 97"))
+print(string_to_dict("87 80"))
