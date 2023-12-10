@@ -1,0 +1,8 @@
+Dir,Files
+DIRECTORY - directory,"['FILE - a.txt = 5 byte', 'FILE - b.txt = 9 byte', 'FILE - c.txt = 9 byte']"
+DIRECTORY - directory\dir_1,[]
+DIRECTORY - directory\dir_1\dir_1_1,"['FILE - a_1.txt = 9 byte', 'FILE - a_2.txt = 9 byte', 'FILE - a_3.txt = 10 byte']"
+DIRECTORY - directory\dir_2,[]
+DIRECTORY - directory\dir_2\dir_2_1,"['FILE - b_1.txt = 9 byte', 'FILE - b_2.txt = 28 byte', 'FILE - b_3.txt = 32 byte']"
+DIRECTORY - directory\dir_3,[]
+DIRECTORY - directory\dir_3\dir_3_1,"['FILE - c_1.txt = 26 byte', 'FILE - c_2.txt = 62 byte', 'FILE - c_3.txt = 117 byte']"
