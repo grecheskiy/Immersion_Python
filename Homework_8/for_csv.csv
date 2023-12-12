@@ -1,0 +1,16 @@
+files,dirs
+csv_file.csv homework_8_2.py json_file.json pickle_file.bin,['directory']
+files,dirs
+a.txt b.txt c.txt,"['dir_1', 'dir_2', 'dir_3']"
+files,dirs
+,['dir_1_1']
+files,dirs
+a_1.txt a_2.txt a_3.txt,[]
+files,dirs
+,['dir_2_1']
+files,dirs
+b_1.txt b_2.txt b_3.txt,[]
+files,dirs
+,['dir_3_1']
+files,dirs
+c_1.txt c_2.txt c_3.txt,[]

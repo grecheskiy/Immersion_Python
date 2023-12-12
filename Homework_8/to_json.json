@@ -1,0 +1,45 @@
+{
+  ".": [
+    "directory"
+  ],
+  "Size": 4483,
+  "files": "csv_file.csv homework_8_2.py json_file.json pickle_file.bin"
+}{
+  ".\\directory": [
+    "dir_1",
+    "dir_2",
+    "dir_3"
+  ],
+  "Size": 23,
+  "files": "a.txt b.txt c.txt"
+}{
+  ".\\directory\\dir_1": [
+    "dir_1_1"
+  ],
+  "Size": 0,
+  "files": ""
+}{
+  ".\\directory\\dir_1\\dir_1_1": [],
+  "Size": 28,
+  "files": "a_1.txt a_2.txt a_3.txt"
+}{
+  ".\\directory\\dir_2": [
+    "dir_2_1"
+  ],
+  "Size": 0,
+  "files": ""
+}{
+  ".\\directory\\dir_2\\dir_2_1": [],
+  "Size": 69,
+  "files": "b_1.txt b_2.txt b_3.txt"
+}{
+  ".\\directory\\dir_3": [
+    "dir_3_1"
+  ],
+  "Size": 0,
+  "files": ""
+}{
+  ".\\directory\\dir_3\\dir_3_1": [],
+  "Size": 205,
+  "files": "c_1.txt c_2.txt c_3.txt"
+}
