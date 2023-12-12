@@ -3,9 +3,9 @@
 # именем в качестве ключа и суммой премии в качестве значения. Сумма рассчитывается как ставка умноженная
 # на процент премии
 
-names = ['Ivan', 'Sergei', 'Sasha']
-rates = [44_000, 15_000, 34_000]
-premiums = ['10.25%', '22.26%', '33.27%']
+names = ['Mark', 'Maxim', 'Mira']
+rates = [70_000, 80_000, 90_000]
+premiums = ['10.25%', '20.25%', '30.25%']
 
 result_dict = {name : (rate * float(premium[:-1])/100) for name, rate, premium in zip(names, rates, premiums)}
 
